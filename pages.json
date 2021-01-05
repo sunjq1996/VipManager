@@ -1,0 +1,61 @@
+{
+  "pages": [
+    //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/index",
+      "style": {}
+    },
+    {
+      "path": "pages/signin",
+      "style": {}
+    },
+    {
+      "path": "pages/signup",
+      "style": {}
+    },
+    {
+      "path": "pages/upload",
+      "style": {}
+    },
+    {
+      "path": "pages/search",
+      "style": {
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/billsearch",
+      "style": {
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/bill",
+      "style": {}
+    },
+    {
+      "path": "pages/record",
+      "style": {
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/book",
+      "style": {
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/vips",
+      "style": {
+        "enablePullDownRefresh": true
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarBackgroundColor": "#0081ff",
+    "navigationBarTitleText": "客户管家",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "white"
+  }
+}
